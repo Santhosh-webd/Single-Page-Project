@@ -1,0 +1,561 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.gridelayout {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg1 {
+    background-color: black;
+}
+
+.main1 ul li {
+    color: white;
+}
+
+.estimate {
+    background-color: #36C1D6;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 50px;
+    border-radius: 5px;
+    border: black;
+}
+
+.main1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headli {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    margin-right: 180px;
+}
+
+.headli li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* header section ends here  */
+
+.heromain {
+    background-image: url(./Images/hero1.png);
+    padding: 370px 0px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+}
+
+.bluecol {
+    color: #36C1D6;
+}
+
+.heromain,
+.cont2 {
+    color: white;
+}
+
+.heromain {
+    position: relative;
+}
+
+.cont1 {
+    position: absolute;
+    left: 260px;
+    top: 300px;
+    font-size: 30px;
+}
+
+.cont2 {
+    position: absolute;
+    left: 365px;
+    top: 400px;
+}
+
+
+
+/* hero section ends here */
+
+.welcomemain {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.welcome {
+    margin-bottom: 50px;
+}
+
+.boldstyle {
+    font-weight: bold;
+}
+
+.welcomechild1 {
+    color: #A5A5A5;
+    margin-bottom: 13px;
+}
+
+.welcomechild2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.welcomemain2 {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.bgimgwelmain {
+    height: 500px;
+}
+
+.welcomechild3 {
+    margin-top: 50px;
+    margin-right: 100px;
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.welcomechild3 p {
+    margin-bottom: 30px;
+}
+
+.welcomelist {
+    margin-left: 30px;
+}
+
+.welcomelist li {
+    margin: 5px 0px;
+}
+
+.welcomechild3 ul {
+    margin-bottom: 30px;
+}
+
+.welcomelist li::marker {
+    content: '\2713';
+    color: #36C1D6;
+    font-size: 25px;
+}
+
+.welcomelist li span {
+    margin-left: 10px;
+}
+
+.welcomesmallimg {
+    margin-top: 20px;
+}
+
+.smallimgsec {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.welcomelast {
+    padding: 0 50px;
+    margin-top: 20px;
+}
+
+/*....... welcome section ends here ......... */
+
+.aboutusmain {
+    background-color: #36C1D6;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 70px;
+}
+
+.aboutusmain2 {
+    margin-left: 40px;
+    width: 600px;
+    flex-grow: 1;
+}
+
+.aboutusimg {
+    width: 600px;
+    flex-grow: 1;
+
+}
+
+.aboutusheadsmall {
+    margin: 50px 0px 20px 0px;
+    font-size: 18px;
+}
+
+.aboutusheadbig {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.aboutusheadbig span {
+    font-weight: bold;
+}
+
+.numberround {
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.numberround p {
+    position: relative;
+    top: 15px;
+    font-size: 30px;
+}
+
+.numbercontent {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.aboutusfirstcont {
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+.aboutusfirstcont h4 {
+    font-size: 24px;
+    align-items: center;
+    margin: 17px 0px;
+}
+
+.numbercontent2 {
+    display: flex;
+}
+
+.aboutuscont2 {
+    margin-left: 15px;
+
+}
+
+.aboutuscont2 h4 {
+    font-size: 24px;
+    margin: 18px 0px;
+}
+
+/* .............about us section ends here..........  */
+
+.servicemain {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 70px;
+}
+
+.servicesmain1 {
+    width: 650px;
+    flex-grow: 1;
+}
+
+.servicesmain1 span {
+    font-weight: bold;
+}
+
+.seviceschild1 {
+    font-size: 18px;
+    margin: 25px 0;
+}
+
+.servicesmain1 h3 {
+    font-size: 35px;
+    margin-bottom: 17px;
+}
+
+.serviceschild2 {
+    margin-bottom: 25px;
+}
+
+.servicesmain2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 700px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.plus {
+    flex-basis: 320px;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.line1 {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.line2 {
+    border-bottom: 1px solid black;
+}
+
+.line3 {
+    border-right: 1px solid black;
+}
+
+/* services section ends here  */
+
+
+.projectsmain {
+    background-image: url(./Images/proj.png);
+    padding: 280px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.projectschild1 {
+    color: white;
+    position: relative;
+    bottom: 150px;
+    text-align: center;
+}
+
+.projectschild1 p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.projectschild1 h3 {
+    font-size: 35px;
+    /* margin-bottom: 10px; */
+}
+
+.projectschild1 span {
+    font-weight: bold;
+}
+
+/* 2nd section in projects  */
+
+.projectmain2 {
+    width: 900px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgb(70, 70, 70);
+    margin-top: -200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+}
+
+.projmainflex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 920px;
+    align-items: center;
+}
+
+.projsmallflex {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.ourprojul {
+    list-style: none;
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+.projectsubimg {
+    width: 440px;
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+.projectcont2 {
+    width: 440px;
+    margin-left: 20px;
+    flex-grow: 1;
+}
+
+.projectcont2 p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.projectcont2 h4 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.projectbutton {
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    background-color: #36C1D6;
+    color: white;
+    border: 0px;
+}
+
+.projsmallflex li {
+    margin-bottom: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+/* project section ends here  */
+
+.company {
+    margin: 100px 0px 30px 0px;
+    padding: 0px 0px 60px 0px;
+    display: flex;
+    border-bottom: 1px solid rgb(112, 112, 112);
+    justify-content: space-evenly;
+}
+
+.mapmain {
+    background-image: url(Images/map.png);
+    padding: 250px 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.mapmain p {
+    width: 900px;
+    margin-left: 300px;
+    margin-top: -50px;
+    margin-bottom: 30px;
+}
+
+.mapmain h4 {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+.oruartimain1 h3 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.oruartimain1 p {
+    width: 700px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.artimain2 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.artimain2 img {
+    box-shadow: 0px 0px 10px 0px;
+}
+
+
+/* footer section starts here  */
+
+
+footer {
+    background-color: black;
+    color: white;
+    height: 450px;
+    width: auto;
+    margin-top: 120px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footermain1 {
+    margin-left: 50px;
+}
+
+.footermain1 h4 {
+    color: #00ffff;
+    font-size: 30px;
+    margin: 90px 0px 40px 0px;
+}
+
+.footermain1 p {
+    margin-bottom: 35px;
+}
+
+.coprights::before {
+    content: "\00A9";
+    color: white;
+}
+
+.arrow dd::before {
+    content: "\2192";
+    color: #2EDBE5;
+    margin-right: 5px;
+}
+
+.socialmedia {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footermain2 {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-right: 120px;
+    margin-top: 85px;
+    margin-bottom: 80px;
+}
+
+.footermain2 dd {
+    margin: 20px 0px;
+}
+
+.footerchild3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.footerchild3 ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.gridelayout {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+hr {
+    margin: 0px 30px;
+}
